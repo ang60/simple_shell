@@ -10,6 +10,6 @@
 
 #define COMMAND_COUNT 10
 
-void turtleShell(char av, char env);
+void turtleShell(char **av, char **env);
 
 #endif
