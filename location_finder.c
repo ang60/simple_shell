@@ -3,7 +3,7 @@
 /**
  * location - finds location from path
  *
- * @cmdInput: user input command 
+ * @cmdInput: user input command
  * Return: path or NULL on success
  */
 
