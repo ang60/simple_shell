@@ -1,5 +1,5 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
 #include <unistd.h>
@@ -8,8 +8,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define COMMAND_COUNT 10
+#define delim " \n\t"
 
-void turtleShell(char **av, char **env);
+int execmd(char **argc);
+char *location(char *command);
+char **stringTokenizer(char *input);
 
 #endif
